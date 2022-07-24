@@ -41,7 +41,7 @@
     justify-content: space-between;
     padding: 20px 240px;
     row-gap: 10px;
-    min-width: 700px;
+    /* min-width: 700px; */
 }
 
 .header h1{
@@ -67,7 +67,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 300px;
+    /* min-width: 300px; */
 }
 
 .pageHeader{
@@ -218,4 +218,8 @@ body{
 
 .message{
     color:#f9faf8;
+}
+
+header, footer, .pageHeader, .pageContent{
+    min-width: 1180px;
 }
