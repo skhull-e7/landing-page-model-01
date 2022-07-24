@@ -15,7 +15,7 @@
 }
 
 .header nav ul li a:hover{
-    color: #b8a1a1;
+    color: cyan;
 }
 
 .header nav ul{
@@ -27,6 +27,10 @@
     row-gap: 10px;
     align-content: flex-start;
     align-items: center;
+}
+
+ul li:hover{
+    transform: scale(1.1) rotate(-2deg);
 }
 
 .header nav{
@@ -47,6 +51,10 @@
 .header h1{
     font-size: 24px;
     color: #f9faf8;
+}
+
+.header h1:hover{
+    transform: scale(1.03);
 }
 
 .header, .footer{
@@ -114,8 +122,9 @@ body{
     font-weight: 500;
     padding: 10px 20px;
     font-size: 20px;
-    /* border: 2px white solid; */
+    border: 0 white solid;
     border-radius: 7px;
+    
 }
 
 .right{
@@ -156,6 +165,11 @@ body{
 .box{
     flex: 0 0 auto;
     min-height: 280px;
+    border-radius: 5px;
+}
+
+.box:hover{
+    transform: scale(1.15) rotate(4deg);
 }
 
 .imageX{
@@ -222,4 +236,13 @@ body{
 
 header, footer, .pageHeader, .pageContent{
     min-width: 1180px;
+}
+
+.pageHeader .right:hover{
+    transform: scale(1.01);
+}
+
+button:hover{
+    color: #3882f6;
+    background-color: #f9faf8;
 }
